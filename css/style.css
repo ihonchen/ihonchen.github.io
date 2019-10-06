@@ -10,6 +10,14 @@ h1, h2, h3, h4, h5 { color: #000; }
   width: 50%;
 }
 
+.mainpf {
+  margin-top: 10%;
+}
+
+.topspace {
+  margin-top: 0px !important;
+}
+
 #up2 {
 	font-style: italic;
 	font-size: 36px;
@@ -140,6 +148,15 @@ h1, h2, h3, h4, h5 { color: #000; }
   color: #ccc;
   padding: 10px 0;
   height: 150px;
+}
+
+.aboutHenryInfo {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.abouthenry {
+  padding: 10% 10%;
 }
 
 /* Add Animation - Zoom in the Modal */
