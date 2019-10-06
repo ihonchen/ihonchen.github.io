@@ -15,7 +15,11 @@ h1, h2, h3, h4, h5 { color: #000; }
 	font-size: 36px;
 }
 
+.titles {
+  color: #FFFFFF !important;
+  font-size: 48px;
 
+}
 
 .homebtn {
 	border: 2px solid #DC3545;
