@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5 { color: #000; }
   margin-top: 0px !important;
 }
 
+.elevateColor {
+  color: #74A945 !important;
+}
+
 #up2 {
 	font-style: italic;
 	font-size: 36px;
@@ -156,7 +160,12 @@ h1, h2, h3, h4, h5 { color: #000; }
 }
 
 .abouthenry {
-  padding: 10% 10%;
+  padding: 10% 10% 0% 10%;
+}
+
+.Iam {
+  padding-top: 6%;
+  padding-bottom: 3%;
 }
 
 /* Add Animation - Zoom in the Modal */
