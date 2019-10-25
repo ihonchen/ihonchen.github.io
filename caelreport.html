@@ -1,4 +1,4 @@
-<!doctype html>
+  <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -35,7 +35,6 @@
               <ul class="list-unstyled">
                 <li class="active"><a href="index.html">Work</a></li>
                 <li><a href="about.html"style="opacity: .5;">About</a></li>
-                <li><a href="photo.html"style="opacity: .5;">Photography</a></li>
                 <li><a href="resume.html"style="opacity: .5;">Resume</a></li>
               </ul>
             </nav>  
@@ -52,7 +51,7 @@
       <div class="container">
         <div class="row align-items-center justify-content-center intro">
           <div class="col-sm-9" data-aos="fade-up">
-            <h1>Legal project management, visualized.</h1>
+            <h1>Report filing, simplified.</h1>
             
             <a href="#next" class="go-down js-smoothscroll"></a>
             
@@ -77,7 +76,7 @@
               </div>
               <div class="col-sm">
                 <span class=caption>Team</span>
-                <strong>Michelle Yu, Sanjeev Kumar, Kamlesh Vemdula, Sri Swarnapuri, Kumar Gogineni</strong>
+                <strong>Kamlesh Vemdula, Sri Swarnapuri, Kumar Gogineni</strong>
               </div>
               <div class="col-sm">
                 <span class=caption>Company</span>
@@ -89,131 +88,68 @@
             <div class="work-detail">
               <span class=caption>Summary</span>
               <p>
-                  I was on the Cael product team to design Cael Project android app. I worked collaboratively with a PM, UX Designer, Senior App Developer, and App Development Intern. As the owner of this design project, me and another supporting designer tackled this for 2 months.
+                  As the second project of my internship, I was tasked with examining the UI/UX of Cael Reporting and redesigning the cloud-based webapp. I worked collaboratively with a senior designer, senior developer, and PM. I owned the design project and received help from senior designer when he did a master review of my design near the end. 
+
               </p>
             </div>
             <div class="work-detail">
               <span class=caption>Challenge</span>
-              <p>Design and ship Cael Project android app that would align with the existing iOS version of the app that supports Cael Project and make new UX improvements/features.
+              <p>Improve the information architecture, navigation, and UI of Cael Report.
               </p>
             </div>
             <div class="work-detail">
               <span class=caption>Context</span>
-              <p>Cael Project streamlines legal project management by managing projects against budgets and schedules. It organizes project data at different levels and reflects the status, allowing customers to see how projects are doing. Users are able to monitor tasks, assign work, and communicate with colleagues on the platform. 
+              <p>There are tons of information and attributes to sort through in a case. Cael Report allows users to organize different information into reports that then can be scheduled to be automatically sent to those who need it. 
               </p>
-              <img src="images/context.png">
+              <p>Cael Report has 3 main features:
               <p>
-                Projects are broken into <b>Matters (high lvl), Phases (mid lvl), and Tasks (low lvl)</b> and they all come with schedules and budgets assigned to different staff.
+              <ol>
+                <li>Dashboard that displays firm data and different levels of report urgency</li>
+                <li>Report that lets users pick from different attributes of data and generates 3 types of charts into a report</li>
+                <li>Scheduler that lets users pick send reports to send at scheduled time to those who need it</li>
+              </ol>
+
               </p>
             </div>
 
           </div>
-          <img src="images/phones.png" class="center botspace" id="fullSpace">
-          <div class="col-sm-9">
-            <p class="work-detail">
-              The app easily informs the users project status and details based on priority. The users can also sort and search for items for monitoring and reviewing. Through a thread like communication channel, staff can comment and prioritize work.
-            </p>
-              <div class="work-detail">
+
+              <div class="work-detail col-sm-9">
                 <h2 style = "font-family: georgia" class="h2top">Research</h2>
                 <span class="caption">Stakeholder Interviews</span>
-                <img src="images/Stakeholder.png" class="center imgneedspace">
-                <p>I interviewed 4 stakeholders to understand their needs and engagement lvl, and through these questions I synthesized that:</p>
-                <ul>
-                  <li>Purpose: To make it easier and clearer to check information on their phone, offer users what they need at a short glance</li>
-                  <li>Get right: Constantly making UX design improvements, continue collecting understand of target market, build new features</li>
-                  <li>Target audience: law related folks including lawyers, clients, managers, paralegals, assistants, runners, etc</li>
-                  <li>One thing: What are the most important tasks performed, what do you want to see (and for information that they see do they use it for communication)?</li>
-                  <li>Success: Less support/complaint tickets, reported customer satisfication, and increase in enrollment after demo period</li>
-                </ul>
-              </div>
-              <div class="work-detail">
-                <span class="caption">User Interviews</span>
-                <p>To understand the user experience, I conducted 10 semi-structured interviews. My goal was to ask for <b>specific examples</b> throughout, rather than generalities. I wanted to see how different user types would interact with each other and have different pain points.</p>
-                <div class="row user10 userSpace">
-                  <div class="col-3">
-                    <img src="images/p1.png" class="center">
-                  </div>
-                  <div class="col-8 smallFont">
-                    <p>"When I log in to the app I'm usually away from the office and I need a quick snapshot of my firm. I am confirming a specific case to be marked finished, or certain phases to begin. I don't know each individual phase/task for each case so I need that to be clearly labeled."<br><b>- Managing Partner</b></p>
-                  </div>
-                </div>
-                <div class="row user10 userSpace">
-                  <div class="col-3">
-                    <img src="images/p2.png" class="imgcenter">
-                  </div>
-                  <div class="col-8 smallFont">
-                    <p>"I review and manage the phases/tasks under each phase. I compile the progress for reporting or communicate what needs to be done. The lack of exporting or link to external communication can slow down my workflow since I need individually message people instead of commenting on a thread."<br><b>- Attorney</b></p>
-                  </div>
-                </div>
-                <div class="row user10 userSpace">
-                  <div class="col-3"> 
-                    <img src="images/p3.png" class="imgcenter">
-                  </div>
-                  <div class="col-8 smallFont">
-                    <p>"I prepare contracts and file documents to help prepare for trial. I monitor the thread for each task closely for updates for next steps. I search for tasks to follow up on so it's important to me that commenting and communication constantly improve to help me focus more on the legal work itself."<br><b>- Paralegal</b></p>
-                  </div>
-                </div>
-              </div>
-              <div class="work-detail">
-                <span class="caption">Research Synthesis</span>
-                <p>After interviewing, I complied pain points, possible solutions and a main question that we should strategize towards.</p>       </div>
-                <h4 class="howQ"><center>How can we improve interaction between different levels and improve user workflow?</center></h4>
                 
-              </div><img src="images/painpt.png" class="center botspace">
-              <div class="col-sm-9 work-detail">
-                <h2 style = "font-family: georgia" class="h2top">Ideate</h2>
-                <span class="caption">Potential Changes</span>
+                <p>I interviewed 3 stakeholders and organized needs and priorities:</p>
               </div>
- 
-        <div class="work-detail">
-          <img src="images/ideation.png">          
-        </div>
-
-        <div class="col-sm-9">
-          <div class="work-detail">
-<h2 style = "font-family: georgia" class="h2top">Prototype</h2>
-
-            <span class="caption">Digital</span>
-            <p>I then created a digital prototype of key user interactions and overall functions in order to prepare for user A/B testing. I wanted to focus on solving visitor pain points as well as making low risk modifications</p>
-          </div>
-          <img src="images/prototypes.png" class="center botspace">
-        </div>
-
-        <div class="col-sm-9">
-          <div class="work-detail">
-            <h2 style = "font-family: georgia" class="h2top">Test</h2>
-
-            <span class="caption">A/B Testing</span>
-            <p>To test the potential changes, I conducted 10 sessions of 2 use cases to see if there are qualitative and/or quantitative improvements. With the testing data, the team decided to implement changes 1,2,3.</p>
-          </div>
-        </div>
-        <img src="images/userflo.png" class="center botspace">
-        <div class="col-sm-9 work-detail">
-          <ul>
-            <li>
-              Changes 1 & 2 received verbal support and praise for solving key user pain point in speeding up the ability to search and the level of clarity
-            </li>
-            <li>
-              Changes 3 received verbal support and praise for solving key user pain point and decreased use case completion speed by up to 20 seconds
-            </li>
-            <li>Change 4 recevied mixed opinions and did not have any quantitative significance</li>
-          </ul>
-        </div>
-        <div class="col-sm-9 work-detail">
-          <h2 style = "font-family: georgia" class="h2top">Design</h2>
-          <span class="caption">Style Guide</span>
-          <p>The next part was coming up with a style guide in order to get the Android look down as well as have consistent elements in the app.
-        </div>
-        <img src="images/styleguide.png" class="center botspace">
-        <div class="col-sm-9 work-detail">
-          <span class="caption">Final Design</span>
-          <p>Due to NDA, I cannot share the final screens of the app. However, feel free to contact me if you would like to see some demo screens that I do have permission to show :)</p>
-        </div>
-        </div>
-
-
-
-
+              <img src="images/reportstakeholder.png" class="center botspace">
+              <div class="work-detail col-sm-9">
+                <span class="caption">Usability Testing</span>
+                <p>With a better undertanding of the needs and priorities, I conducted 5 usability tests that covered the usage of the 3 primary pages. Having the users go through this workflow allowed me to see how they interacted with most functions of this web app.</p>
+              </div>
+              <img src="images/reportusabilitytest.png" class="center botspace">
+              <div class="work-detail col-sm-9">
+                <span class="caption">Pain Points</span>
+                <p>I synthesized the usability testing session findings and organized pain points by primary pages:</p>
+              </div>
+              <img src="images/reportpainpt.png" class="center botspace">
+              <div class="work-detail col-sm-9">
+                <h2 style = "font-family: georgia" class="h2top">Ideate</h2>
+                <span class="caption">Re-information architecture</span>
+                <p>I wanted to address the scheduler function first since many had to go out of order to fill in information. I observed many people going out of the current system order of first selecting <b>who</b> to send it to, <b>what</b> reports to send, then finally <b>when</b> to send it.</p>
+              </div>
+              <img src="images/iabefore1.png" class="center botspace">
+              <div class="work-detail col-sm-9">
+                <p>I conducted a open card sorting session and asked 10 participants to organize the 3 sections (report, participants, schedule) into the order that they would fill out in their workflow. The goal was to understand how the sections should be matched.</p>
+              </div>
+              <img src="images/reportcard.png" class="center botspace">
+              <div class="work-detail col-sm-9">
+                <h2 style="font-family: georgia" class="h2top">Design</h2>
+                <span class="caption">Design Decisions</span>
+                <p>I validated these design decisions by sending out a survey to 50 users 10 product team members and explain what solutions the design addressed. Of all the selected results, it had a minimum of 73% (44/60) support.</p>
+              </div>
+              <img src="images/reportdd.png" class="center botspace">
+              <div class="work-detail col-sm-9">
+                <span class="caption">Final</span>
+                <p>Due to NDA, I cannot show the final screens. In the end I delivered and connected 30+ screens. I also designed the interactions and accounted for error states.</p>
       </div>
 
 
